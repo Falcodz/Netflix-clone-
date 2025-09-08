@@ -13,7 +13,7 @@
 - Clone your application's code repository onto the EC2 instance:
     
     ```bash
-    git clone https://github.com/Falconcodz/Netflix-clone-.git
+    git clone https://github.com/Falcodz/Netflix-clone-.git
     ```
     
 
@@ -180,7 +180,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/Falconcodz/Netflix-clone-.git'
+                git branch: 'main', url: 'https://github.com/Falcodz/Netflix-clone-.git'
             }
         }
         stage("Sonarqube Analysis") {
@@ -270,7 +270,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/Falconcodz/Netflix-clone-.git'
+                git branch: 'main', url: 'https://github.com/Falcodz/Netflix-clone-.git'
             }
         }
         stage("Sonarqube Analysis "){
